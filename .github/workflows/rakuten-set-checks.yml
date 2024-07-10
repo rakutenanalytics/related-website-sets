@@ -9,7 +9,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -17,12 +16,34 @@ jobs:
           cache: 'pip' # caching pip dependencies
       - name: Install dependencies
         run: pip install -r requirements.txt
-
-      - name: Check site
+      - name: Check Rakuten site
+        run:  python check_sites.py -p https://rakuten.co.jp > result.txt
+      - name: "Read the result"
+        id: read_results
+        uses: andstor/file-reader-action@v1
+        with:
+          path: "results.txt"
+      - name: "File contents"
+        env:
+            CONTENTS: ${{ steps.read_results.outputs.contents }}
+        run: echo "$CONTENTS"
+      - name: Create Comment
+        if: steps.read_results.outputs.contents != 'success'
         run: |
-          python check_sites.py -p https://rakuten.co.jp > result.txt
-          if grep -q 'success' result.txt; then
-            echo "Check successful"
-          else
-            echo "Check failed, see message below:"
-            cat result.txt
+         echo "It appears you have failed some tests. Here are your results:" > message.txt
+         cat results.txt >> message.txt
+      - name: Comment if sucess
+        if: steps.read_results.outputs.contents == 'success'
+        run: echo "Looks like you've passed all of the checks!" >> message.txt
+      - name: Write Comment on PR
+        uses: mshick/add-pr-comment@v2
+        with:   
+          message-path: "message.txt" 
+          refresh-message-position: true
+      - name: Fail or Succeed
+        if: steps.read_results.outputs.contents != 'success'
+        uses: actions/github-script@v3
+        with:
+          script: |
+            core.setFailed('This run has failed. Check `File Contents` to see why.')
+        
