@@ -1,4 +1,4 @@
-name: RWS submission checks
+name: Rakuten RWS Set checks
 on: 
   pull_request:
     branches:
@@ -17,7 +17,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Check Rakuten site
-        run:  python check_sites.py -p https://rakuten.co.jp > result.txt
+        run:  python check_sites.py -p https://rakuten.co.jp > results.txt
       - name: "Read the result"
         id: read_results
         uses: andstor/file-reader-action@v1
