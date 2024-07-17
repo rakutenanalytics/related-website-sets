@@ -1,5 +1,89 @@
 {
   "sets": [
+      {
+        "contact": "contact@rakuten.com",
+        "primary": "https://rakuten.co.jp",
+        "associatedSites": [
+          "https://rakuten.net",
+          "https://rakuten-card.co.jp",
+          "https://rakuten-sec.co.jp",
+          "https://rakuten-bank.co.jp",
+          "https://rakuten-insurance.co.jp",
+          "https://fril.jp",
+          "https://rakuten-data-solutions.co.jp",
+          "https://rakuten-data-marketing.co.jp",
+          "https://nikki.ne.jp",
+          "https://rebates.jp",
+          "https://infoseek.co.jp",
+          "https://rakuten-sqreem.co.jp",
+          "https://linkshare.ne.jp",
+          "https://kdreams.jp",
+          "https://rakuten-drive.com",
+          "https://rakutentrade.my",
+          "https://rakuten-trust.co.jp",
+          "https://rakuten-sonpo.co.jp",
+          "https://rakuten-life.co.jp",
+          "https://rakuten-toushin.co.jp",
+          "https://rakuten-ssi.co.jp", 
+          "https://rakuten-wallet.co.jp",
+          "https://rakuten-bank.com.tw",
+          "https://rakuten-sec-hd.co.jp",
+          "https://rakuten-med.com",
+          "https://viber.com",
+          "https://rakutenadvertising.com",
+          "https://kobo.com",
+          "https://viki.com",
+          "https://rakuteneagles.jp",
+          "https://vissel-kobe.co.jp"
+        ],
+        "serviceSites": [
+          "https://r10s.jp"
+        ],
+        "rationaleBySite": {
+          "https://rakuten.net": "Rakuten Global websites",
+          "https://rakuten-card.co.jp": "Rakuten Card",
+          "https://rakuten-sec.co.jp": "Rakuten Securities",
+          "https://rakuten-bank.co.jp": "Rakuten Bank",
+          "https://rakuten-insurance.co.jp": "Rakuten Insurance",
+          "https://fril.jp": "Rakuten Rakuma",
+          "https://rakuten-data-solutions.co.jp": "Rakuten Data Solutions",
+          "https://rakuten-data-marketing.co.jp": "Rakuten Data Marketing",
+          "https://nikki.ne.jp": "楽天みん就",
+          "https://rebates.jp": "楽天リーベイツ",
+          "https://infoseek.co.jp": "楽天Infoseek",
+          "https://rakuten-sqreem.co.jp": "楽天スクリーム",
+          "https://linkshare.ne.jp": "楽天リンクシェア",
+          "https://kdreams.jp": "楽天Kドリームス",
+          "https://rakuten-drive.com": "楽天ドライブ",
+          "https://rakutentrade.my": "Rakuten Trade",
+          "https://rakuten-trust.co.jp": "楽天信託",
+          "https://rakuten-sonpo.co.jp": "楽天損害保険株式会社 / 楽天損保",
+          "https://rakuten-life.co.jp": "楽天生命",
+          "https://rakuten-toushin.co.jp": "楽天投信投資顧問",
+          "https://rakuten-ssi.co.jp": "Rakuten ペット保険",
+          "https://rakuten-wallet.co.jp": "楽天ウォレット",
+          "https://rakuten-bank.com.tw": "樂天國際銀行",
+          "https://rakuten-sec-hd.co.jp": "楽天証券ホールディングス株式会社",
+          "https://rakuten-med.com": "楽天メディカル",
+          "https://viber.com": "Rakuten Viber",
+          "https://rakutenadvertising.com": "Rakuten Advertising",
+          "https://kobo.com": "Rakuten Kobo",
+          "https://viki.com": "Rakuten Viki",
+          "https://rakuteneagles.jp": "東北楽天ゴールデンイーグルス",
+          "https://vissel-kobe.co.jp": "ヴィッセル神戸",
+          "https://r10s.jp": "CDN"
+        },
+        "ccTLDs": {
+          "https://rakuten.co.jp": [
+              "https://rakuten.com",
+              "https://rakuten.ne.jp",
+              "https://rakuten.co.uk",
+              "https://rakuten.es",
+              "https://rakuten.fr",
+              "https://rakuten.de"
+          ]
+        }
+    },
     {
       "contact": "oterrell28@gmail.com",
       "primary": "https://sackrace.ai",
@@ -72,14 +156,14 @@
         "https://wieistmeineip.de"
       ],
       "serviceSites": [
-        "https://www.asadcdn.com"
+        "https://asadcdn.com"
       ],
       "rationaleBySite": {
         "https://welt.de": "News Website welt.de",
         "https://autobild.de": "Special Interest Website Autobild",
         "https://computerbild.de": "Special Interest Website Computerbild",
         "https://wieistmeineip.de": "Internet speed Measurement Website of Computerbild",
-        "https://www.asadcdn.com": "CDN for Ad Files - Frequency Capping"
+        "https://asadcdn.com": "CDN for Ad Files - Frequency Capping"
       }
     },
     {
