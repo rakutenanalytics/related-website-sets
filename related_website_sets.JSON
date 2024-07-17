@@ -11,7 +11,7 @@
           "https://rakuten-insurance.co.jp",
           "https://fril.jp",
           "https://rakuten-data-solutions.co.jp",
-          "http://rakuten-booksnetwork.co.jp",
+          "https://rakuten-data-marketing.co.jp,
           "https://nikki.ne.jp",
           "https://rebates.jp",
           "https://infoseek.co.jp",
@@ -46,9 +46,8 @@
           "https://rakuten-bank.co.jp": "Rakuten Bank",
           "https://rakuten-insurance.co.jp": "Rakuten Insurance",
           "https://fril.jp": "Rakuten Rakuma",
-          "https://r10s.jp": "CDN",
           "https://rakuten-data-solutions.co.jp": "Rakuten Data Solutions",
-          "http://rakuten-booksnetwork.co.jp": "Rakuten ブックス ネットワーク",
+          "https://rakuten-data-marketing.co.jp": "Rakuten Data Marketing",
           "https://nikki.ne.jp": "楽天みん就",
           "https://rebates.jp": "楽天リーベイツ",
           "https://infoseek.co.jp": "楽天Infoseek",
@@ -65,14 +64,14 @@
           "https://rakuten-wallet.co.jp": "楽天ウォレット",
           "https://rakuten-bank.com.tw": "樂天國際銀行",
           "https://rakuten-sec-hd.co.jp": "楽天証券ホールディングス株式会社",
-          "https://rakuten-med.com/jp": "楽天メディカル",
+          "https://rakuten-med.com": "楽天メディカル",
           "https://viber.com": "Rakuten Viber",
           "https://rakutenadvertising.com": "Rakuten Advertising",
           "https://kobo.com": "Rakuten Kobo",
           "https://viki.com": "Rakuten Viki",
           "https://rakuteneagles.jp": "東北楽天ゴールデンイーグルス",
           "https://vissel-kobe.co.jp": "ヴィッセル神戸",
-          "https://rakuten-data-marketing.co.jp": "Rakuten Data Marketing"
+          "https://r10s.jp": "CDN"
         },
         "ccTLDs": {
           "https://rakuten.co.jp": [
